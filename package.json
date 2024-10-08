@@ -5,11 +5,14 @@
   "scripts": {},
   "private": true,
   "dependencies": {
-    "next": "14.2.3",
+    "@mui/material": "^6.1.2",
+    "@mui/material-pigment-css": "^6.1.2",
+    "next": "^14.2.14",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.25.2",
     "@eslint/compat": "^1.1.1",
     "@eslint/js": "^9.8.0",
     "@nx/devkit": "20.0.0",
@@ -17,9 +20,10 @@
     "@nx/eslint-plugin": "20.0.0",
     "@nx/jest": "20.0.0",
     "@nx/js": "20.0.0",
-    "@nx/next": "20.0.0",
-    "@nx/playwright": "20.0.0",
+    "@nx/next": "^19.5.1",
+    "@nx/playwright": "^19.5.7",
     "@nx/workspace": "20.0.0",
+    "@pigment-css/nextjs-plugin": "^0.0.24",
     "@playwright/test": "^1.36.0",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
